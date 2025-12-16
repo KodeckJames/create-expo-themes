@@ -1,0 +1,33 @@
+{
+  "name": "create-themes",
+  "version": "1.0.0",
+  "description": "Custom Expo starter with both light and dark themes already configured, streamlining project setup and dependency updates.",
+  "bin": {
+    "create-themes": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "template",
+    "starter",
+    "themes",
+    "dark-mode",
+    "light-mode",
+    "cli",
+    "initializer",
+    "create"
+  ],
+  "author": "Kodeck James https://github.com/KodeckJames",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "chalk": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KodeckJames/Expo-Themes-Starter-Kit"
+  }
+}
