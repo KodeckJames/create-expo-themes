@@ -84,7 +84,7 @@ async function run() {
         '\nRunning core dependency updates to latest Expo SDK version...'
       )
     )
-    execSync(`npm install expo@latest`, { stdio: 'inherit' })
+    execSync(`npm install expo@^54.0.0`, { stdio: 'inherit' })
     execSync(`npx expo install --fix`, { stdio: 'inherit' })
     console.log(chalk.green('✅ Dependencies updated and fixed successfully!'))
   } catch (error) {
