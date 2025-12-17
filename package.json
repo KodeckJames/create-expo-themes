@@ -1,6 +1,6 @@
 {
   "name": "create-expo-themes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom Expo starter with both light and dark themes already configured, streamlining project setup and dependency updates.",
   "bin": {
     "create-expo-themes": "./cli.js"
